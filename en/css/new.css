@@ -1,0 +1,108 @@
+nav.navbar#mynavbar-1 .navbar-collapse > .navbar-nav > li .dropdown-menu li a:hover, nav.navbar#mynavbar-1 .navbar-collapse > .navbar-nav > li .dropdown-menu li a:focus, nav.navbar#mynavbar-1 .navbar-collapse > .navbar-nav > li .dropdown-menu li.active > a, nav.navbar#mynavbar-1 .navbar-collapse > .navbar-nav > li .dropdown-menu li.active a:hover {
+    background-color: #e1090a;
+    color: #fff;
+}
+
+.navbar{
+
+    background:#E1090A
+}
+
+#navbarDropdown,.nav-link{
+    color:#fff !important
+}
+
+nav.navbar .navbar-collapse > ul > li:hover > a, nav.navbar .navbar-collapse > ul > li > a:focus {
+    color: rgba(255,255,255,0.8) !important;
+}
+
+
+.room-opt{
+    padding:0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.room-opt li{
+    font-size:12px;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 6px;
+    background: #f1f1f1;
+}
+
+.main-block:hover {
+    transform: translateY(0px);
+}
+
+.main-block:hover .main-img img {
+    transform: unset;
+}
+
+.offer-price-1 li.price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.offer-price-1 {
+    font-size: 14px;
+    margin: 0px;
+    text-transform: unset;
+    font-weight: bold;
+    padding: 14px 18px 11px;
+}
+
+.n-card-img{
+max-height:210px
+
+}
+
+
+
+.offer-price-1 li.price .divider ,.offer-price-1 li.price .pkg {
+    top:0 !important
+}
+
+/* .slick-list{
+    max-height:unset !important;
+    height:350px !important
+}  */
+/* .slick-list.draggable{
+    min-height:400px !important
+} */
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+    height:400px !important
+}
+@media(max-width:767px){
+    .fa.fa-navicon{
+        color:#fff
+    }
+    .navbar-brand img{
+
+        width: 120px
+    
+    }
+}
+
+@media(min-width:991px){
+
+
+    .nav-tabs{
+        border:none
+    }
+    #hotels{
+        width:800px;
+        margin:0 auto;
+    }
+    #hotels form .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .search-tabs .tab-content .tab-pane {
+        padding: 25px;
+    }
+}
